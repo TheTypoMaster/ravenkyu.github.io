@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>파이썬 가상 환경 by RavenKyu</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>파이썬 가상 환경</h1>
+        <p>가상 환경, virtualenv</p>
+
+
+        <p class="view"><a href="https://github.com/RavenKyu">View My GitHub Profile</a></p>
+
+      </header>
+      <section>
+        <h1>
+<a id="가상-환경" class="anchor" href="#%EA%B0%80%EC%83%81-%ED%99%98%EA%B2%BD" aria-hidden="true"><span class="octicon octicon-link"></span></a>가상 환경</h1>
+
+<h2>
+<a id="왜-필요한가" class="anchor" href="#%EC%99%9C-%ED%95%84%EC%9A%94%ED%95%9C%EA%B0%80" aria-hidden="true"><span class="octicon octicon-link"></span></a>왜 필요한가?</h2>
+
+<p>파이썬으로 개발을 진행하다 보면 필요에 따라 서드파티 모듈들을 설치하거나 업데이트를 할 수 있다. 하나의 개발환경에서 개발하는 파이썬 프로젝트가 많다면 개발 시간에 따라 모듈별로 버전의 차이가 발생하게된다. 어떠한 프로젝트는 개발 당시의 환경과 많이 달라졌있을 수 있다.  동작하지 않거나 예기치 않는 결과 값을 만들 수 있다. 또는 전체 시스템에도 중대한 문제가 발생할 수도 있다.</p>
+
+<p>파이썬 가상 환경은 개발 환경을 프로젝트별로 분리하여 사용할 수 있다. 현재 사용중인 파이썬 환경을 그대로 복사하거나 새롭게 구성하여 사용할 수 있다. 분리된 가상환경은 다른 프로젝트에 설정된 가상환경에 어떠한 영향도 미치지 않는다. 완전히 독립된 개발환경을 가질 수 있다.</p>
+
+<h2>
+<a id="사용방법" class="anchor" href="#%EC%82%AC%EC%9A%A9%EB%B0%A9%EB%B2%95" aria-hidden="true"><span class="octicon octicon-link"></span></a>사용방법</h2>
+
+<div class="highlight highlight-python"><pre> <span class="pl-k">%</span> python3 <span class="pl-k">-</span>m virtualenv mytestenv                                        !<span class="pl-c1">73</span>
+Using base prefix <span class="pl-s"><span class="pl-pds">'</span>/Library/Frameworks/Python.framework/Versions/3.4<span class="pl-pds">'</span></span>
+New python executable <span class="pl-k">in</span> mytestenv<span class="pl-k">/</span><span class="pl-c1">bin</span><span class="pl-k">/</span>python3
+Also creating executable <span class="pl-k">in</span> mytestenv<span class="pl-k">/</span><span class="pl-c1">bin</span><span class="pl-k">/</span>python
+Installing setuptools, pip, wheel...done.</pre></div>
+      </section>
+      <footer>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
